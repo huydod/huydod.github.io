@@ -1,2 +1,0 @@
-var _vue = require('vue');
-_vue.createApp({}).mount('#app');
