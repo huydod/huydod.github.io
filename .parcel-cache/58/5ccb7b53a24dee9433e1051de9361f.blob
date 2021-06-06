@@ -1,0 +1,18 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+_parcelHelpers.export(exports, "render", function () {
+  return render;
+});
+var _vue = require("vue");
+const _withId = /*#__PURE__*/_vue.withScopeId("data-v-cdbb4f");
+_vue.pushScopeId("data-v-cdbb4f");
+const _hoisted_1 = /*#__PURE__*/_vue.createVNode("h1", null, "Hello world", -1);
+_vue.popScopeId();
+const render = /*#__PURE__*/_withId((_ctx, _cache) => {
+  return (_vue.openBlock(), _vue.createBlock("div", null, [_hoisted_1]));
+});
+if (module.hot) {
+  module.hot.accept(() => {
+    __VUE_HMR_RUNTIME__.rerender('cdbb4f-hmr', render);
+  });
+}
